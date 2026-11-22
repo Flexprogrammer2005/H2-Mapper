@@ -1,0 +1,67 @@
+{
+  "model_name": "serpentinization_source_context_screen",
+  "model_version": "0.1.0",
+  "purpose": "Transparent identification of broad areas with mapped prerequisites for possible serpentinization-driven H2 generation.",
+  "output_label": "potential_serpentinization_h2_source_context",
+  "not_outputs": [
+    "reaction rate",
+    "hydrogen volume",
+    "commercial resource",
+    "discovery probability",
+    "accumulation prospectivity"
+  ],
+  "criteria": [
+    {
+      "id": "source_rock_extent",
+      "classification": "required",
+      "question": "Is ultramafic, peridotitic, ophiolitic, or serpentinitic material mapped in the area?",
+      "acceptable_evidence": [
+        "vetted geological polygon",
+        "traceable authoritative geological-map unit",
+        "documented source-rock observation"
+      ],
+      "forbidden_shortcut": "Do not infer source-rock presence from bulk Fe, Ni, Cr, satellite colour, or proximity alone."
+    },
+    {
+      "id": "water_rock_access_context",
+      "classification": "supporting",
+      "question": "Is there mapped evidence consistent with water access or water-rock contact?",
+      "acceptable_evidence": [
+        "hydrogeological data",
+        "surface drainage or recharge context",
+        "documented fractures or permeability evidence",
+        "hydrothermal-system evidence"
+      ],
+      "forbidden_shortcut": "A river, fault, or slope alone is not proof of reactive water flow."
+    },
+    {
+      "id": "surface_and_terrain_context",
+      "classification": "supporting",
+      "question": "Do quality-controlled satellite and terrain data support interpretation of the mapped surface setting?",
+      "acceptable_evidence": [
+        "quality-masked Landsat surface reflectance",
+        "quality-controlled surface-temperature context",
+        "terrain derivatives with documented source and resolution"
+      ],
+      "forbidden_shortcut": "Satellite or terrain data do not measure H2, subsurface mineralogy, or reaction activity."
+    },
+    {
+      "id": "direct_h2_evidence",
+      "classification": "validation_only",
+      "question": "Are traceable measured H2 observations available to test the screen?",
+      "acceptable_evidence": [
+        "source-attributed gas measurement",
+        "source-attributed dissolved-gas measurement",
+        "source-attributed inclusion measurement"
+      ],
+      "forbidden_shortcut": "Absence of an observation is not negative evidence in poorly sampled regions."
+    }
+  ],
+  "uncertainty_classes": [
+    "mapped_prerequisites_with_supporting_context",
+    "mapped_source_rock_data_limited",
+    "insufficient_geological_coverage",
+    "no_mapped_source_rock_prerequisite"
+  ]
+}
+

@@ -1,0 +1,15 @@
+services:
+  mongodb:
+    image: mongo:8
+    container_name: h2-mapper-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: h2_mapper
+    volumes:
+      - h2_mapper_mongodb:/data/db
+
+volumes:
+  h2_mapper_mongodb:
+

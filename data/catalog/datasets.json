@@ -1,0 +1,251 @@
+{
+  "catalog_version": "0.1.0",
+  "purpose": "Chemistry-led screening for possible serpentinization source contexts; not a deposit or reserve model.",
+  "datasets": [
+    {
+      "id": "gem_global_active_faults_v2020",
+      "name": "GEM Global Active Faults Database",
+      "provider": "Global Earthquake Model Foundation",
+      "status": "approved_for_pilot",
+      "role": "fault_context",
+      "geographic_coverage": "Most deforming continental regions; known gaps include the Malay Archipelago, Madagascar, Canada, and other areas",
+      "temporal_coverage": "Continuously maintained repository; imported snapshot is recorded with the ingestion run",
+      "native_resolution": "Fault-trace line geometry; local positional accuracy and attributes vary by source catalogue",
+      "access": {
+        "method": "Versioned GeoJSON repository",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "CC-BY-SA-4.0",
+        "attribution": "Styron and Pagani, GEM Global Active Faults Database"
+      },
+      "provenance_url": "https://github.com/GEMScienceTools/gem-global-active-faults",
+      "required_quality_fields": ["catalog_id", "catalog_name", "slip_type", "name"],
+      "permitted_use": "Structural-context and fault-proximity analysis with source catalogue and coverage limitations retained.",
+      "prohibited_inference": "Fault proximity alone is not evidence of permeability, fluid flow, H2 generation, migration, or accumulation.",
+      "known_limitations": [
+        "The database focuses on active faults of seismogenic concern and is not a complete map of all geological fractures.",
+        "Coverage and attributes are regionally heterogeneous."
+      ]
+    },
+    {
+      "id": "hydroatlas_v10",
+      "name": "HydroATLAS BasinATLAS and RiverATLAS",
+      "provider": "HydroSHEDS / McGill University collaborators",
+      "status": "candidate",
+      "role": "water_access_context",
+      "geographic_coverage": "Global hydro-environmental basin, river, and lake attributes",
+      "temporal_coverage": "Version 1.0 release; individual attributes have distinct source dates",
+      "native_resolution": "Hydro-environmental attributes organized at 15 arc-second framework; vector product scale varies",
+      "access": {
+        "method": "Bulk vector download",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "CC-BY-4.0",
+        "attribution": "HydroATLAS / HydroSHEDS"
+      },
+      "provenance_url": "https://www.hydrosheds.org/hydroatlas",
+      "required_quality_fields": ["source_product", "attribute_name", "resolution", "temporal_reference"],
+      "permitted_use": "Surface-water, drainage, and catchment context after selecting and documenting individual attributes.",
+      "prohibited_inference": "Surface-water or catchment attributes do not prove subsurface recharge, reactive water flow, or water-rock contact.",
+      "known_limitations": [
+        "Global downloads are large and must be subsetted through a reproducible acquisition process.",
+        "Hydro-environmental surface attributes are not direct groundwater measurements."
+      ]
+    },
+    {
+      "id": "glhymps_global_permeability",
+      "name": "GLHYMPS global permeability and porosity maps",
+      "provider": "GLHYMPS data creators",
+      "status": "candidate",
+      "role": "permeability_context",
+      "geographic_coverage": "Global, with dataset-defined coverage and class limitations to be verified per release",
+      "temporal_coverage": "Static hydrogeological compilation; release/version must be recorded before ingestion",
+      "native_resolution": "Dataset-defined hydrogeological polygons or gridded representation; verify selected release",
+      "access": {
+        "method": "Public data repository",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "verification_required",
+        "attribution": "GLHYMPS dataset citation to be captured with the selected release"
+      },
+      "provenance_url": "https://emf.creaf.cat/external_data/glhymps/",
+      "required_quality_fields": ["release_version", "permeability_metric", "unit", "source_method"],
+      "permitted_use": "Broad hydrogeological permeability context after release, unit, and uncertainty validation.",
+      "prohibited_inference": "Mapped permeability is not site-specific fracture permeability and does not establish H2 migration or reservoir quality.",
+      "known_limitations": [
+        "Release licensing, units, and uncertainty must be verified before model inclusion.",
+        "Global hydrogeology compilations generalise local heterogeneity."
+      ]
+    },
+    {
+      "id": "earthchem_petdb_global_ophiolite_samples_2019",
+      "name": "EarthChem Data-To-Go: Geochemical Data for Ophiolites, version February 2019",
+      "provider": "PetDB Team / EarthChem Library",
+      "status": "approved_for_pilot",
+      "role": "source_rock_reference",
+      "geographic_coverage": "Global sample locations returned by the PetDB tectonic-setting query for ophiolite",
+      "temporal_coverage": "Dataset published 2019; sample ages and collection dates vary",
+      "native_resolution": "Point sample locations; does not delineate geological-body extent",
+      "access": {
+        "method": "EarthChem Library workbook download",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "CC-BY-SA-4.0",
+        "attribution": "PetDB Team, 2019, EarthChem Data-To-Go: Geochemical Data for Ophiolites, version February 2019, DOI:10.1594/IEDA/111307"
+      },
+      "provenance_url": "https://doi.org/10.1594/IEDA/111307",
+      "required_quality_fields": ["SAMPLE_ID", "LATITUDE", "LONGITUDE", "ROCK NAME", "REFERENCE"],
+      "permitted_use": "Global, source-attributed point anchors for ophiolite and directly sampled ultramafic source-rock context.",
+      "prohibited_inference": "A sample point does not delimit an ophiolite body, prove present-day water-rock reaction, or establish H2 generation or accumulation.",
+      "known_limitations": [
+        "Sampling distribution reflects research coverage and is not a global inventory of all ophiolites.",
+        "Rock type at a point cannot be expanded into an areal boundary without an independent geological map.",
+        "The dataset contains ophiolite samples beyond the direct ultramafic and serpentinite rock types relevant to the initial source-rock screen."
+      ]
+    },
+    {
+      "id": "usgs_landsat_c2_l2_surface_reflectance",
+      "name": "Landsat Collection 2 Level-2 Surface Reflectance",
+      "provider": "U.S. Geological Survey",
+      "status": "approved_for_pilot",
+      "role": "surface_context",
+      "geographic_coverage": "Global scene-based coverage",
+      "temporal_coverage": "Landsat 4-9; 1982-present",
+      "native_resolution": "30 m",
+      "access": {
+        "method": "STAC API / Cloud Optimized GeoTIFF assets",
+        "stac_endpoint": "https://landsatlook.usgs.gov/stac-server/",
+        "collection": "landsat-c2l2-sr"
+      },
+      "rights": {
+        "status": "public_domain",
+        "attribution": "U.S. Geological Survey Landsat Collection 2 Level-2 Surface Reflectance"
+      },
+      "provenance_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+      "required_quality_fields": ["QA_PIXEL", "QA_RADSAT"],
+      "permitted_use": "Surface context, exposed-rock and land-surface interpretation after quality masking.",
+      "prohibited_inference": "Cannot establish subsurface lithology, Fe(II) availability, H2 generation, H2 occurrence, or accumulation.",
+      "known_limitations": [
+        "Optical data are affected by cloud, shadow, vegetation, and surface cover.",
+        "Mapped surface expression does not prove buried geology or reactive mineralogy."
+      ]
+    },
+    {
+      "id": "usgs_landsat_c2_l2_surface_temperature",
+      "name": "Landsat Collection 2 Level-2 Surface Temperature",
+      "provider": "U.S. Geological Survey",
+      "status": "approved_for_pilot",
+      "role": "surface_context",
+      "geographic_coverage": "Global scene-based coverage where a valid product is generated",
+      "temporal_coverage": "Landsat 4-9; 1982-present",
+      "native_resolution": "30 m source imagery; use product metadata and QA",
+      "access": {
+        "method": "STAC API / Cloud Optimized GeoTIFF assets",
+        "stac_endpoint": "https://landsatlook.usgs.gov/stac-server/",
+        "collection": "landsat-c2l2-st"
+      },
+      "rights": {
+        "status": "public_domain",
+        "attribution": "U.S. Geological Survey Landsat Collection 2 Level-2 Surface Temperature"
+      },
+      "provenance_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products",
+      "required_quality_fields": ["ST_QA", "QA_PIXEL", "QA_RADSAT"],
+      "permitted_use": "Environmental surface-context exploration with quality controls.",
+      "prohibited_inference": "Surface temperature is not a measurement of subsurface temperature, serpentinization, or H2 flux.",
+      "known_limitations": [
+        "Not all scenes produce a surface-temperature product.",
+        "Atmospheric conditions and land cover affect interpretation."
+      ]
+    },
+    {
+      "id": "usgs_srtm_global_terrain",
+      "name": "Shuttle Radar Topography Mission terrain data",
+      "provider": "USGS-hosted LP DAAC / NASA SRTM mission",
+      "status": "candidate",
+      "role": "terrain_context",
+      "geographic_coverage": "Approximately 60 degrees north to 56 degrees south",
+      "temporal_coverage": "Single mission acquisition, February 2000",
+      "native_resolution": "Product-dependent; verify exact product before ingestion",
+      "access": {
+        "method": "USGS/NASA data access",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "verification_required",
+        "attribution": "Shuttle Radar Topography Mission"
+      },
+      "provenance_url": "https://lpdaac.usgs.gov/documents/642/DEM_Comparison_Guide.pdf",
+      "required_quality_fields": [],
+      "permitted_use": "Terrain, drainage, slope, and accessibility context.",
+      "prohibited_inference": "Terrain lineaments are not proof of active faults, permeability, water access, or H2 generation.",
+      "known_limitations": [
+        "Does not cover polar regions beyond the stated latitude range.",
+        "A DEM is not a lithology or subsurface-structure dataset."
+      ]
+    },
+    {
+      "id": "usgs_ds414_ultramafic_conus",
+      "name": "USGS Data Series 414 ultramafic-rock database",
+      "provider": "U.S. Geological Survey",
+      "status": "approved_for_pilot",
+      "role": "source_rock_context",
+      "geographic_coverage": "Conterminous United States only",
+      "temporal_coverage": "Published 2009; compiled from varied-scale geologic mapping",
+      "native_resolution": "Varied by contributing map; inspect feature-level metadata",
+      "access": {
+        "method": "USGS geospatial database download",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "verification_required",
+        "attribution": "Krevor and others, 2009, USGS Data Series 414"
+      },
+      "provenance_url": "https://pubs.usgs.gov/ds/414/",
+      "required_quality_fields": ["source_map", "map_scale", "feature_precision"],
+      "permitted_use": "CONUS pilot source-rock extent and methodology benchmark.",
+      "prohibited_inference": "Ultramafic rock extent alone does not establish H2 generation or accumulation.",
+      "known_limitations": [
+        "Not global coverage.",
+        "Original compilation purpose was mineral carbon-dioxide sequestration, not natural hydrogen."
+      ]
+    },
+    {
+      "id": "usgs_mf340_global_alpine_ultramafic_reference",
+      "name": "Preliminary map showing global distribution of alpine-type ultramafic rocks and blueschists",
+      "provider": "U.S. Geological Survey",
+      "status": "reference_only",
+      "role": "source_rock_reference",
+      "geographic_coverage": "Global",
+      "temporal_coverage": "Published 1972",
+      "native_resolution": "Historic preliminary map; do not treat as current feature-resolution data",
+      "access": {
+        "method": "USGS publication and plate",
+        "stac_endpoint": null,
+        "collection": null
+      },
+      "rights": {
+        "status": "verification_required",
+        "attribution": "Irwin and Coleman, 1972, USGS Miscellaneous Field Studies Map 340"
+      },
+      "provenance_url": "https://www.usgs.gov/maps/preliminary-map-showing-global-distribution-alpine-type-ultramafic-rocks-and-blueschists",
+      "required_quality_fields": ["digitization_method", "positional_uncertainty_m", "source_plate_locator"],
+      "permitted_use": "Historical discovery reference and comparison layer after documented digitisation.",
+      "prohibited_inference": "Not a current global production geology layer and not evidence of H2.",
+      "known_limitations": [
+        "Published in 1972 and explicitly preliminary.",
+        "May omit or generalise features and requires provenance-preserving digitisation."
+      ]
+    }
+  ]
+}
+

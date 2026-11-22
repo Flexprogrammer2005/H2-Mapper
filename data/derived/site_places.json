@@ -1,0 +1,4252 @@
+{
+ "earthchem-ophiolite-44fdb04eb3fe": {
+  "code": "CHL",
+  "country": "Chile",
+  "region": ""
+ },
+ "earthchem-ophiolite-e76f6999b817": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-eacbf4dc1fdf": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-d36887166dda": {
+  "code": "NZL",
+  "country": "New Zealand",
+  "region": "Auckland"
+ },
+ "earthchem-ophiolite-3f20e2941228": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "South"
+ },
+ "earthchem-ophiolite-402a4d545057": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "South"
+ },
+ "earthchem-ophiolite-1c8de2f0fecb": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "South"
+ },
+ "earthchem-ophiolite-7166a5bd5996": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "South"
+ },
+ "earthchem-ophiolite-2488d89b07d9": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "South"
+ },
+ "earthchem-ophiolite-a840812bdd4d": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "North"
+ },
+ "earthchem-ophiolite-2659b1a7cd2a": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "North"
+ },
+ "earthchem-ophiolite-31a3657bf064": {
+  "code": "NCL",
+  "country": "New Caledonia",
+  "region": "North"
+ },
+ "earthchem-ophiolite-645291269612": {
+  "code": "ZMB",
+  "country": "Zambia",
+  "region": "Central"
+ },
+ "earthchem-ophiolite-07f6eeabe188": {
+  "code": "ECU",
+  "country": "Ecuador",
+  "region": "El Oro"
+ },
+ "earthchem-ophiolite-f50cc4a8f6c3": {
+  "code": "PHL",
+  "country": "Philippines",
+  "region": "Zambales"
+ },
+ "earthchem-ophiolite-8e145f2267d1": {
+  "code": "PHL",
+  "country": "Philippines",
+  "region": "Zambales"
+ },
+ "earthchem-ophiolite-7cb47ea4ad82": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-54e5cf7da0b0": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-3e5f8f8138d4": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-ffe8f6fcdfb7": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-1b2534fdff77": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-2505fba500eb": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-3df66dcb7331": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-4341fcac2ab4": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-8f7477667157": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-d7a313321ea2": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ash Sharqiyah North"
+ },
+ "earthchem-ophiolite-18d295591836": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ash Sharqiyah North"
+ },
+ "earthchem-ophiolite-18f3b93c8e60": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-3fff3cdebed7": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-07670a2c4d29": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-1faa89ccf32a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-27438c4ae2d8": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-45b1c63e2a63": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-d5060eb0566f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-c196299abdf3": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-c246c0f79345": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-a5efd2d98c2c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-9d7ad8a30e55": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-6b0cb1fd8c3c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-866e79dcffc8": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-c7e791a790f9": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-995a30bc8b89": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-263d57c5bb2a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-8c4e56aa8f81": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-0dfc451d3eec": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-165025ae4eba": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-49710760736c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-9bde013964fd": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-45dce232ad42": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-56ffcf72aae6": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-bb2fba265b8c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-b760cd825f2c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-6db9e67c7bf2": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-546eeea470cf": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-4971d8a754cd": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-82cec455686b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-d49f05ccd742": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Muscat"
+ },
+ "earthchem-ophiolite-0faf4552cca1": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-984f735b43da": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-100723b96d8a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-127d6c11c540": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-082242195dcf": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-1789ff6da048": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-95c94d2f7ac2": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-b55777fd015d": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-a8d8dd0cd0a4": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-b5be22e39119": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-dbaa109a521a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-e1d7ee579f6b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-39becd6eba0c": {
+  "code": "MMR",
+  "country": "Myanmar",
+  "region": "Sagaing"
+ },
+ "earthchem-ophiolite-3cd158ec8e54": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-1b051e421966": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-c18dcecfa964": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-e74f003062a5": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-8cf1f3aa8c6f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-cedaa8900c2e": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-a31de43fb6e0": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-2d66a394184a": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Yunnan"
+ },
+ "earthchem-ophiolite-99d4ae71d65a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-ba1f42230f30": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-7722585f312f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-3ab1b1615038": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-34172766a3d7": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-3b343770bcf2": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-65cdd16fde24": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-fcfc019eba84": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-f3bf06f30a9f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-2529e6094842": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-ee6bb945db9d": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-739789e7fd76": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-5d9ad984a311": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-198490fdcec7": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-65286c3f6fbd": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-754285f18c03": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-d114aa6cc3e5": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dakhiliyah"
+ },
+ "earthchem-ophiolite-855b4afd3224": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dhahirah"
+ },
+ "earthchem-ophiolite-4a0d63ed895f": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-cbd898fa6eac": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-4da0ebfefd57": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-049708d17089": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-78a59a0e9659": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-7a407e042750": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-c43aec81f58b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-db7a4b04d437": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-0e19a381b346": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-b494e20073ed": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-3006a337fe9d": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dhahirah"
+ },
+ "earthchem-ophiolite-fb78c8327dec": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dhahirah"
+ },
+ "earthchem-ophiolite-1d9f82d9de56": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-077a479be4c4": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-80b4fd4fe1e8": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-5c76d2e7382c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-46cddd157b3d": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Ad Dhahirah"
+ },
+ "earthchem-ophiolite-691d66a1595f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-1600f6e7fbbc": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-f37f1cc1f9e8": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-276cb6ecf76a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-98c764dfa102": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-416c1a8319b6": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-6da791795d2f": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-663d7bf96d0b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-c458032c16f4": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-e5571723cd46": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-b5d0d81bad8e": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-070f15f355bc": {
+  "code": "MMR",
+  "country": "Myanmar",
+  "region": "Sagaing"
+ },
+ "earthchem-ophiolite-e25e9bc1b208": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-c940505f3f9b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-e749154096e7": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-57d28997f9cf": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-27e4f58d5f1a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-a02f9891a943": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-10bc348f46a4": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-29d233cf4048": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-cc072e5bb7db": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-998ca8a877ad": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-853148198258": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-4fa7bdbf90d1": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-30778f5db806": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-3f27da98673c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-e2fb6b094d57": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-3033d2af26c6": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-2fdd2bcbb248": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-76798d6dd0a9": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-bf36fa7fb209": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-6c4fa939693d": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-11e247e59188": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-9456391526f7": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-e29c542d14d3": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-50b8920d3b7b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-dcd314019347": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-1eb90ebeb9b2": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-8569f760d399": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-a68a609eca00": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-8d822d04cd45": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-6f6f8cc235d5": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-b06bf14afd3b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-934a14ba5bd6": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-e51f4e3723ee": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-6d96b004e527": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-e4cde90ddf50": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-23ee1789fc58": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-bbea5e903824": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-afe2786d2c10": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-c20aff9ab147": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-30dc18b408fb": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-c8447dc5fb96": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-6b0a2b63f5e8": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-47bafcf1d043": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-b22b8187d75e": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-a1f6a3830001": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-16b8adc80ded": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-58a98014cb44": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-a33d5a50108c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-be50b977b33f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-ee693529de60": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-b1cd5ebca6c4": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-b372cdb4334d": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-243814491b5b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-105788994fa7": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-ade5d06c7ef5": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-0258616b4cc2": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-5a07d57df89b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-9287151ccedd": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-fa630dabc51a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-29cc2dc10843": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-b6bdf7d4974a": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-797c64dab1c1": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-c227a6d124e4": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-d12ad5460282": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-64794f5ef826": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-20759e130101": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-f432162e4058": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-0045fd4b5a4b": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-6dde7373941c": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-2f0df3b9143f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-d79362d1c36f": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-2d95911a4a7e": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-b8f84deba249": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-722fbdf4f5ef": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-a56ad0f488ca": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-b0411e9f1637": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-1b071809458e": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Buraimi"
+ },
+ "earthchem-ophiolite-10d4de9af907": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Al Batinah North"
+ },
+ "earthchem-ophiolite-f7224e0ec640": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-103ed0f4b224": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-e045a5c25799": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-f3e5843f0946": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-105e55d3bf36": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-08bb660c45d1": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-619add7265bc": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-9d597adfe1c1": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-93c1dd7866e0": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-b5e5ead61624": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-8c46b0c20a62": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-a7f08e4bc2b1": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-a563a231b8ea": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-af1c6b76ef93": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-9fc5b823521c": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-445c12a4f718": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-4265bace64f3": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-68a2169a5cce": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-9acd45233ad8": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-5003a55f14a4": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-26a77cf7b1dd": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-0186a12749eb": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-6dc5cc9ce7a6": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-cc1e27e2a002": {
+  "code": "IND",
+  "country": "India",
+  "region": "Manipur"
+ },
+ "earthchem-ophiolite-d039bcb1e2d4": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-0ea4de241bc2": {
+  "code": "MMR",
+  "country": "Myanmar",
+  "region": "Kachin State"
+ },
+ "earthchem-ophiolite-c4275d4c957a": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-b58fc1b8d557": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Fujairah"
+ },
+ "earthchem-ophiolite-b74a655a7b0e": {
+  "code": "IND",
+  "country": "India",
+  "region": "Nagaland"
+ },
+ "earthchem-ophiolite-5e3974116aea": {
+  "code": "MMR",
+  "country": "Myanmar",
+  "region": "Kachin State"
+ },
+ "earthchem-ophiolite-beb003572e17": {
+  "code": "OMN",
+  "country": "Oman",
+  "region": "Musandam"
+ },
+ "earthchem-ophiolite-6080771a5300": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-989aa5541dbc": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-f63758878866": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-5138e22c2b3b": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-aeb9859d63f1": {
+  "code": "ARE",
+  "country": "United Arab Emirates",
+  "region": "Emirate of Ras Al Khaimah"
+ },
+ "earthchem-ophiolite-a96c2c6b6502": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-e1c8fdc4ac7b": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Red Sea"
+ },
+ "earthchem-ophiolite-f8d306a27d49": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Sistan and Baluchestan"
+ },
+ "earthchem-ophiolite-dcfff644b3be": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Jiangxi"
+ },
+ "earthchem-ophiolite-529879ab7ef1": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Suez"
+ },
+ "earthchem-ophiolite-17ced579b1ef": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-ae1acce5c6d0": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-abfdef64ea0d": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-00fb0d5f61d8": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-29ca31150131": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-bd05ed46d864": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-188db751cb05": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-1bd228ef88e4": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-3116fffe10e6": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-75a4a9cc575a": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-39aa763eadd9": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-473f76ebe1e2": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-bb4fc412691d": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-0d3d7134cb4e": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-e3383af78ed9": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-7f3ade2447e8": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-7ed5ff28312e": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-8edfaab6c9aa": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-fc90c14f649e": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-83a3f352b0ab": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-5e3a0d77bbc4": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Fars"
+ },
+ "earthchem-ophiolite-85404d58d557": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "Giza"
+ },
+ "earthchem-ophiolite-8c31cc908cb4": {
+  "code": "NPL",
+  "country": "Nepal",
+  "region": "Mahakali Zone"
+ },
+ "earthchem-ophiolite-147cca101dfc": {
+  "code": "EGY",
+  "country": "Egypt",
+  "region": "North Sinai"
+ },
+ "earthchem-ophiolite-dc04140492ce": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-0bb92b91a594": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-f646cfd7a06b": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-cb5ba3557088": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-a2d90b3b1bb9": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-c504d4480474": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-1fc4d4772974": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-341d7f7fb35b": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-797402c93410": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-ac7054430284": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-3db690ada6af": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-4dbbcbb049ec": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-cbe2d2c8120e": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-a4b1b2f5ffc5": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-e45829380631": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-857f6c12d1a3": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-42181444e41d": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-ab9d766dc4c7": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-8531919f034c": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-44d34a04ed67": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-350e7e0a47b6": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-e082fe3fa8d5": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-f79954b0dc31": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-208d42651585": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-446ff11c4368": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-c7c9a7f18329": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Hubei"
+ },
+ "earthchem-ophiolite-9e0223898ed8": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-e9129f1811b8": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-b5925bd5de34": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-43e6d5a420a5": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-d9b86fdc1729": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-67b5f8cac366": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Tibet"
+ },
+ "earthchem-ophiolite-6d6fd723bf67": {
+  "code": "IND",
+  "country": "India",
+  "region": "Ladakh"
+ },
+ "earthchem-ophiolite-edf00beb3b17": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Larnaca"
+ },
+ "earthchem-ophiolite-4b2f89627a89": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Limassol"
+ },
+ "earthchem-ophiolite-4255d1146361": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Limassol"
+ },
+ "earthchem-ophiolite-05dd1cacd9bf": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c880a4160019": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-968dd8825336": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e772524c5cbf": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c9352566e5e2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9d4516439744": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-db9355f8fde1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5f8883f5b75a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-dcfc17f7e3f2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-3a0e57e34ea7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-cbc57fece31d": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a71e21adf08a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-fe29d30b51ea": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ae6c6a0b640c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-4e30d5a8a210": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5714d04b4c27": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-df1d2df26ae6": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5d266ec8513a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-86232f90909b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1618f16c5e1d": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-8bd60df3cf6c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-193c87789b1b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-d016fb2658c9": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-2223f8998b47": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1be237ede30a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-45bd4edd934e": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-8bd52fe14532": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a276a34a500c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-30dd7f54c390": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-562ae5f69aaa": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-43afe8c1f14c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-30936a806642": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-6c4ba430fdfe": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-f971ba668e41": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9a92a18ee9a2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-bb0862100778": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-7ecd46ed1bb5": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-4d02469a6dc7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-200dc95265f5": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-523e7bb2396b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b22320ef4ac2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-232aa51e6228": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-bedab37f0ee8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-fec5754466be": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b54f1e356b27": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-454c92fe4ae4": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e45666c838b0": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-37a32d99ba07": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ab1221edfe8a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e09e6f60abc1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ee5069d80df1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c95556a0ccbc": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-2504958fb04c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-70aa9232c521": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-dc77cc9fa087": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ab6d82ca270a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-932a566d9875": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-89be8749b319": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ba9ee6d80880": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-436edbd16bf2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-98ab6c6d6a94": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-367188629068": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a7d6bb5698e7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-6a946e6065ea": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-438cf279e572": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-687ada17ffa7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c32af03ef110": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-0245db32a8ed": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-42ace0c9804c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5b73ef0024d8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-227a44b4ac4f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9774464b0589": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-d2704ca413f2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a50d84dae06e": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ed45c5fafbe8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-00280f8e35d7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5b3ef4699f6b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-58771d38dcaf": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-24700f7eeb8b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-4f043fb57a06": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-dbf62a0f8164": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-136e83f378b3": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-0775a04d4e6f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e30fcace482b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b0ae826291db": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9dbb8dd8e7a1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-eeb62fb4f1c0": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1435295ccc1e": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e841739df914": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5de2cfbe2b1e": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a61aa4e7ec84": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-37a91537f096": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-f97ca1df04c9": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c2a41c8d591f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e6088b1d9d00": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c205e7bd7233": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-35c31543430c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-935a3fedbdd8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ae154d7eab97": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-aad3ee6887a8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c15543cfe780": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-7fdb24f107ff": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-3fb902372358": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c9d529813cb6": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9a555e213722": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-70e1e680825c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-cde75e66f64c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-cce0b23fba1f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-0c3ed808b637": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-98369c39070a": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b694ab6cdb32": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-94a572618df7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e5cb9901cbc8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-4451b0282372": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-f2067b9bd4c7": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-0b6a36cc52e1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-fe233e17b9c5": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-65f16a2c7b2b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-3259fb2d9010": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ee7e2f706649": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-f1e71ac276fe": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-fb5baf765959": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5a01a6cb365d": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a7de8cbc8c70": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-2a537d3aafab": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-68723fc72c89": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5f46a207daf1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b34915bc3bac": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c8f545dbcaa2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-387ceb09b43c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-76271bb67bbb": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-d35c622729c5": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5a1c3a3c61b9": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-bd6f8a7f36fe": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-2014368ff62b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-688e4415e606": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-080b9b797054": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-5532e70d72e9": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a4fc2257b9aa": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ad2ddd3b5219": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-04d42fe80605": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-44beba92f1ec": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-50a592fc85e4": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9ed6d52941ea": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-536af30016cb": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-eba75eb0787b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a9faa70ac66e": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1c598a335303": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c1daf34c6508": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e8202744a5e4": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-22cd750ae792": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-0475c1c0c835": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-25132f7db1f3": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-6b10f70c573f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b59319701656": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-3896d40ed831": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-59060f809a53": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-7b0c9b74beba": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-cc9fe5ba8190": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b90ee3d37a37": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-8a6bf1d9032b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-525dc47eae5d": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-de476cb2f4c2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-77d90fe827b1": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-41f009b49b52": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-94364cde5c7f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1f85d84e7e37": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-ba202502d203": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-357e9b9e71c4": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-6047f8814864": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-03f75b84cecb": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-9085e18afae4": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-b2cc8024ed42": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1f459c12c894": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-684dd2c6ba8d": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-62f5d10fd6b8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-122a9499718e": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-2418ae4a7430": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e9811e88b874": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-3b4b7b65b436": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-7a01d18a977b": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-31c7b6c9374c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-97cd142d9784": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-085603517172": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-0ae9b488fff8": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a23f8f6fffc2": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-d059f0e44d75": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-8c1d0862fc85": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-e6249bca7bbd": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-6b79d9e954bc": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-45d43681a574": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-2affaaba268f": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-4bded9ca4521": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1a59470cf416": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-01c2d0eed579": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-df2bfa074954": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-efb5f56a56ce": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-16e203e242ad": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-714633b11f3c": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-4d1cef877afd": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-51578855ec09": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-eae2bca78998": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-84d793de05de": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-3b705456a533": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-c60ad5b36f55": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-1e8b75dbdfcf": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-a2555c8029fa": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-57bf23bcc5e4": {
+  "code": "CYP",
+  "country": "Cyprus",
+  "region": "Nicosia"
+ },
+ "earthchem-ophiolite-50a3ff6766d9": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Crete"
+ },
+ "earthchem-ophiolite-7fc99d8d350c": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Qinghai"
+ },
+ "earthchem-ophiolite-296b82897ff8": {
+  "code": "CYN",
+  "country": "Northern Cyprus",
+  "region": "Northern Cyprus"
+ },
+ "earthchem-ophiolite-a93187fe9011": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-620cadb507e4": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-0eb0f53974e9": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-86a9d0973469": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-d1215a9a27e8": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Razavi Khorasan"
+ },
+ "earthchem-ophiolite-259b6a701d89": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Razavi Khorasan"
+ },
+ "earthchem-ophiolite-224c05594ab9": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Razavi Khorasan"
+ },
+ "earthchem-ophiolite-c7467af5ab87": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Qinghai"
+ },
+ "earthchem-ophiolite-1f3a5615d352": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-cd6f03d2dbf0": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-6ca08a4432e7": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Qinghai"
+ },
+ "earthchem-ophiolite-b1b38a35352c": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Qinghai"
+ },
+ "earthchem-ophiolite-17f1c0be951b": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Qinghai"
+ },
+ "earthchem-ophiolite-46f08ebbb775": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Semnan"
+ },
+ "earthchem-ophiolite-89d60611d504": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "Razavi Khorasan"
+ },
+ "earthchem-ophiolite-d5fbfc4face5": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-1745882039b0": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-bb801fefd9b9": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-846aeb46fb88": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-c5f66dca9cfc": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-f2923ca03b3b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-a1285db71766": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-75734cd8bb5a": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-c6dfe893b2bc": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-3e11502e4d4c": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-68ffac996370": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-2570d329ba5d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-4299a34f02b4": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-6e56af0d6adc": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-284a1302895f": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-74ae33aef3c8": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-6e0d6522e7fd": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-6d357df8bcf7": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-fdeb34465b68": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-1e5d20f3b0d2": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-0d0a9f66a57b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-b64b3ad10465": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-1712575a9fe7": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-b2ee39790e5d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-fc44546c2bfd": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-17b72d1e46b0": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-1f7f70b83310": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-3644329cf621": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-ffe2e2a7efa7": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-5d40277e832d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-861de708d23b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Mersin"
+ },
+ "earthchem-ophiolite-61221e445d90": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-f3cb008ea14c": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-204653d5ec42": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-6d10ce1b8d24": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-8d5e2faadb87": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-7433537ebea4": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-6319eefb682b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-694225670f28": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Peloponnese"
+ },
+ "earthchem-ophiolite-13b23c2d6876": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Peloponnese"
+ },
+ "earthchem-ophiolite-383d8b279db6": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-df794bbd8144": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-8391c1fd74f9": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-a24190080d58": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-a4bb465bdecd": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-1c9e3480ddc5": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Gaziantep"
+ },
+ "earthchem-ophiolite-655c6042ce46": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-809d6c688969": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-f54312956c36": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Denizli"
+ },
+ "earthchem-ophiolite-e4f143732fe6": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Denizli"
+ },
+ "earthchem-ophiolite-f9f70ee5a04e": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-f012fd315026": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-35fe360094fd": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-28d19f59c50b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-1947fbe48454": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Denizli"
+ },
+ "earthchem-ophiolite-e22011e4d850": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-56dc6ba8982a": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-05af2f1784a0": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Peloponnese"
+ },
+ "earthchem-ophiolite-dbd64f4a693a": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-67001b51cd54": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Muğla"
+ },
+ "earthchem-ophiolite-ce3a418a8d5f": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Denizli"
+ },
+ "earthchem-ophiolite-33483f4b4698": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "South Aegean"
+ },
+ "earthchem-ophiolite-f969464e1453": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Aydın"
+ },
+ "earthchem-ophiolite-b55b1a50272b": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "West Greece"
+ },
+ "earthchem-ophiolite-332e7915b24d": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Central Greece"
+ },
+ "earthchem-ophiolite-54a6c5c0a67d": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Central Greece"
+ },
+ "earthchem-ophiolite-210c8a62eec5": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Diyarbakır"
+ },
+ "earthchem-ophiolite-4194e55d75a9": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "West Azerbaijan"
+ },
+ "earthchem-ophiolite-1cce5798586d": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "West Azerbaijan"
+ },
+ "earthchem-ophiolite-b5060697e760": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "West Azerbaijan"
+ },
+ "earthchem-ophiolite-3f75b7d50a8f": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Central Greece"
+ },
+ "earthchem-ophiolite-f41debd7a7bd": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "West Azerbaijan"
+ },
+ "earthchem-ophiolite-7e03645422be": {
+  "code": "IRN",
+  "country": "Iran",
+  "region": "East Azerbaijan"
+ },
+ "earthchem-ophiolite-05f25316a0af": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Central Greece"
+ },
+ "earthchem-ophiolite-aaca0b35898a": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-ba7b518d5e70": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-dd827f291d8b": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-8ee4e36d0867": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-f8310264c91b": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-01247c3d83b2": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-f4834a811bf5": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-13d55179170d": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-7f5f4c08d193": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-057c83f42fc6": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-3b6930cc6ddf": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-8340c093990e": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-d6c46581e00e": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-9d693f696e12": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-70d19f460d10": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-4a9483d079a4": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-690c8e6b59b2": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-3f6cd8b54f42": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-2f925666b11f": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-bd021678c0c8": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Sivas"
+ },
+ "earthchem-ophiolite-e4af1a740b8d": {
+  "code": "",
+  "country": "",
+  "region": ""
+ },
+ "earthchem-ophiolite-1a7ce44d239b": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Thessalia"
+ },
+ "earthchem-ophiolite-e997029298c1": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-3bf6b94c2600": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-7f4d3137f3b7": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-15f2ef67fe40": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-85ee973f77a6": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-040a3b6f1255": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-1b1e134afa8a": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-d539b8b1dc6c": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-70ad4b39cb85": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-2e0190fd5e1b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-a6fb8f8b1f3f": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-414fc34f373f": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-90b9e2c9a85d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Erzincan"
+ },
+ "earthchem-ophiolite-c648816746be": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Gümüşhane"
+ },
+ "earthchem-ophiolite-d574ccc67b1d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Bursa"
+ },
+ "earthchem-ophiolite-61e5c2af3973": {
+  "code": "GRC",
+  "country": "Greece",
+  "region": "Epirus"
+ },
+ "earthchem-ophiolite-13bf7ba66b24": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-126099ab9bfc": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-40a2f1c55acc": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-3ce4d3e93daa": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-6186ccfbc162": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-ec9a0776577c": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-3908085e4587": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-6b4006b43832": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-eb8fb318511d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-527077614665": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-f68904e87089": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-95b0caecfb8b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-9fbe4a194349": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-16589bfc1148": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çankırı"
+ },
+ "earthchem-ophiolite-29cddea57dd5": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-51271e9973f4": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-8f6462f57fb0": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-7486ed7bff18": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-aa70bc73ee7a": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-39d7a9fc7bd8": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-fc338859273d": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Samsun"
+ },
+ "earthchem-ophiolite-59b6ac7dc4b2": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-70d4895a4692": {
+  "code": "ALB",
+  "country": "Albania",
+  "region": "Elbasan"
+ },
+ "earthchem-ophiolite-f460c67d409b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-511136dec573": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-520f82ffb352": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Sinop"
+ },
+ "earthchem-ophiolite-d5ac088fb76e": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-3b16f076a34b": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Çorum"
+ },
+ "earthchem-ophiolite-7b943b370797": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Sinop"
+ },
+ "earthchem-ophiolite-7a9b0c784e44": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Sinop"
+ },
+ "earthchem-ophiolite-43ae58a85fc5": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Sinop"
+ },
+ "earthchem-ophiolite-dcac2ea9987a": {
+  "code": "ALB",
+  "country": "Albania",
+  "region": "Dibër"
+ },
+ "earthchem-ophiolite-b2d114d62b0e": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-7ce8d5105f96": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-c9e7c003376b": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "Barcelona"
+ },
+ "earthchem-ophiolite-f26582716935": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-5e5746bf93dc": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-3b809067de7c": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-a37e80c99eba": {
+  "code": "TUR",
+  "country": "Turkey",
+  "region": "Kastamonu"
+ },
+ "earthchem-ophiolite-6b2db01302a2": {
+  "code": "ALB",
+  "country": "Albania",
+  "region": "Shkodër"
+ },
+ "earthchem-ophiolite-7cf60b78d46f": {
+  "code": "CHN",
+  "country": "China",
+  "region": "Xinjiang"
+ },
+ "earthchem-ophiolite-f330d7fd653a": {
+  "code": "ALB",
+  "country": "Albania",
+  "region": "Shkodër"
+ },
+ "earthchem-ophiolite-6ecfebdee11d": {
+  "code": "JPN",
+  "country": "Japan",
+  "region": "Hokkaidō"
+ },
+ "earthchem-ophiolite-fd75834cb658": {
+  "code": "JPN",
+  "country": "Japan",
+  "region": "Hokkaidō"
+ },
+ "earthchem-ophiolite-9ed7c8faffdc": {
+  "code": "JPN",
+  "country": "Japan",
+  "region": "Hokkaidō"
+ },
+ "earthchem-ophiolite-c42d9b0c9498": {
+  "code": "JPN",
+  "country": "Japan",
+  "region": "Hokkaidō"
+ },
+ "earthchem-ophiolite-4b2c7164336c": {
+  "code": "FRA",
+  "country": "France",
+  "region": "Haute-Corse"
+ },
+ "earthchem-ophiolite-fc7533002de4": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-ee29ad88363f": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-0ff51b4046e4": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-8d4fc368db34": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-6f0927d619f8": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-78bb5186ecb8": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-2aa8cd7bbd24": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-4730799f3de5": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-fa9382358ba2": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-2bc3f887d8b5": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-3950f7f2a91a": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-2a1ef3779da1": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-73501f7f3def": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-5ea7fcc2dbb9": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-7984531a3172": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-4db6412bb030": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-c2bee5445957": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-de6c90adafa3": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-ab1f8f4263c9": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-1b7796cce40a": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-b109b2c4417a": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-d96b8c715faf": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-61d3af29e57e": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-d9674e073c46": {
+  "code": "ESP",
+  "country": "Spain",
+  "region": "A Coruña"
+ },
+ "earthchem-ophiolite-837688192124": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-94628fd03733": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-ee389405e20f": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-3297d2bded47": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-1aabd276fb4f": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-e1032d1814e6": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-aa17fdacee3f": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-7731e708cc48": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-266d6c7f7634": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-894fb903e19f": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-30df2659ed3d": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "La Spezia"
+ },
+ "earthchem-ophiolite-b2005f3bbf5e": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "Turin"
+ },
+ "earthchem-ophiolite-1ba21b347552": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "Turin"
+ },
+ "earthchem-ophiolite-c1fe26c2db68": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "Turin"
+ },
+ "earthchem-ophiolite-e13c67ab0038": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "Turin"
+ },
+ "earthchem-ophiolite-b2786713085a": {
+  "code": "ITA",
+  "country": "Italy",
+  "region": "Turin"
+ },
+ "earthchem-ophiolite-ea6da53c4a64": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-02fad379210b": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-36870fe80cb6": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-a3ee6f104665": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-c4b7607b92b2": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-ed8890b313ec": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-5d9a9de9e026": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-b854def05dc9": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-21a11348f37a": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-4660a2a3dae0": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-dcccb0653933": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-253eb0e25c48": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-3c322d3ed6dd": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-da86a99722cd": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-51bd08f45ce5": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-fcf5d77110b8": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-9bd9c2ccb7bb": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-3cc7e21b83d7": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-d5ba02c0857c": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-40fce8c34854": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-c3706019ba60": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-79c08c22e6ef": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-8eaafb4a5367": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-8a28f5203ca0": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-5b580b293599": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-207c877a792c": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-a8738baac093": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-11b64bc3e382": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-b890ccc95ec8": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-152ffc47ffd4": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-68a5a2dff860": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-f2122ed8adf6": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-d9fb692b7e1d": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-1eb628b48f98": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-e9add0576bb6": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-b0646ea6d854": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-4bac33fa8542": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-a301c784239c": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-baaaddcdbcbd": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-8f40918638a3": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-0c9de4fb0781": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-9b97b17ffe6d": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-a61642d3428f": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-57114101877c": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-53b2c36e6701": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-60f78ab27bfb": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-8195673ea8a2": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-fc1a535a3043": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-90686b0c8bc4": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-e42765ec0a13": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-43d3e9601029": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-7d4a070bb669": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-3aae3e6ae3e6": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-4ea82203d853": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-3c02b1873eee": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-29620364fdde": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-6b4f3de1468e": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-f4bc8b57b3a4": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-ae0b9bb95407": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-f87d47bdf9a8": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-e8ed67c2bbc4": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-153063657e37": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-be719164b4da": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-e0a1fe77a96b": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-e685b444153b": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-83c4dae3057c": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-15fd820dce93": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Govi-Altai"
+ },
+ "earthchem-ophiolite-dfab6b2f0dd6": {
+  "code": "AUT",
+  "country": "Austria",
+  "region": "Styria"
+ },
+ "earthchem-ophiolite-c6171d82c338": {
+  "code": "AUT",
+  "country": "Austria",
+  "region": "Styria"
+ },
+ "earthchem-ophiolite-7c47c110acc6": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-b0d5d4e07318": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-e4df8b8b70a4": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-791b339db95a": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-81f0dfe299af": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-f4d3821784c2": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-0b3e139a66d5": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-3d480cfad661": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-b8374fd99c54": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-47be9d419688": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-0be63ab59f13": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-487ba569162b": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-2db6cd69c9da": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-ed336962e162": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-7dd429090101": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-d3e8e446785c": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-9933d968c942": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-18288491324e": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-bf7fe4accfd8": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-60234000b9af": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-4a0fd7401e55": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-2c23c550a823": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-2f8b548564ae": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-e3d8d4303ed4": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-0292dc628de3": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-d01b1fe8b922": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-27dd58d903ac": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-bd66a44fb263": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-135429d898e8": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-a4ef3b12ed84": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-8a65a6f84983": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-be18c2b5c20a": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-f3ede5cf18bf": {
+  "code": "MNG",
+  "country": "Mongolia",
+  "region": "Zavkhan"
+ },
+ "earthchem-ophiolite-236db18c0701": {
+  "code": "AUT",
+  "country": "Austria",
+  "region": "Lower Austria"
+ },
+ "earthchem-ophiolite-764d57131cab": {
+  "code": "BLR",
+  "country": "Belarus",
+  "region": "Mahilioŭ"
+ },
+ "earthchem-ophiolite-d8f6645525d6": {
+  "code": "BLR",
+  "country": "Belarus",
+  "region": "Mahilioŭ"
+ },
+ "earthchem-ophiolite-d4f3419c64c9": {
+  "code": "BLR",
+  "country": "Belarus",
+  "region": "Mahilioŭ"
+ },
+ "earthchem-ophiolite-0dfa13c47e97": {
+  "code": "BLR",
+  "country": "Belarus",
+  "region": "Mahilioŭ"
+ },
+ "earthchem-ophiolite-9121e53c4c9a": {
+  "code": "BLR",
+  "country": "Belarus",
+  "region": "Mahilioŭ"
+ },
+ "earthchem-ophiolite-7b73cc84592b": {
+  "code": "BLR",
+  "country": "Belarus",
+  "region": "Mahilioŭ"
+ },
+ "earthchem-ophiolite-c751df0ce293": {
+  "code": "GBR",
+  "country": "United Kingdom",
+  "region": "Shetland Islands"
+ },
+ "earthchem-ophiolite-a1e9fdfa8afe": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-c6078012c07d": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-5134d5989fa3": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-8298c0f56da1": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-c02574be91a5": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-77df51647714": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-accec171fa69": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-2fbdaf3293dc": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-2e641c6cc84b": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-033f7c887403": {
+  "code": "CAN",
+  "country": "Canada",
+  "region": "Yukon"
+ },
+ "earthchem-ophiolite-70af619a96c4": {
+  "code": "NOR",
+  "country": "Norway",
+  "region": "Nord-Trøndelag"
+ }
+}

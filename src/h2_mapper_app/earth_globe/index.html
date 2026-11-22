@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>H₂ Mapper interactive Earth</title>
+<style>
+  * {box-sizing:border-box}
+  body {margin:0;background:#081522;color:#eff7fd;font:14px system-ui,sans-serif;overflow:hidden}
+  #scene {width:100vw;height:clamp(320px,90vw,590px)}
+  .key,#status {position:absolute;background:#081522e8;padding:8px 12px;border-radius:6px;pointer-events:none}
+  .key {bottom:8px;left:8px;font-size:12px;line-height:1.55}
+  #status {top:8px;left:8px} .a {color:#38f2d1} .b {color:#ffb649}
+</style>
+<div id="scene" aria-label="Interactive satellite globe"></div>
+<div class="key"><span class="a">●</span> Direct rock sample &nbsp; <span class="b">●</span> Ophiolite context<br>Blue Marble · Globe.GL</div>
+<div id="status" role="status">Loading Earth…</div>
+<script src="globe.gl.min.js"></script>
+<script>
+const scene = document.getElementById('scene');
+const statusBox = document.getElementById('status');
+const parentOrigin = document.referrer ? new URL(document.referrer).origin : '*';
+function send(type, fields) {
+  window.parent.postMessage({isStreamlitMessage:true, type:'streamlit:' + type, ...fields}, parentOrigin);
+}
+let globe;
+function resize() {
+  if (globe) globe.width(scene.clientWidth).height(scene.clientHeight);
+  send('setFrameHeight', {height:scene.clientHeight});
+}
+function showError(message) {
+  statusBox.hidden = false;
+  statusBox.textContent = message;
+}
+window.addEventListener('message', event => {
+  if (event.source !== parent || event.data?.type !== 'streamlit:render') return;
+  const {sites, direct_class} = event.data.args;
+  try {
+    if (!globe) {
+      globe = new Globe(scene, {animateIn:false})
+        .width(scene.clientWidth).height(scene.clientHeight)
+        .backgroundColor('#081522').globeImageUrl('earth.jpg')
+        .pointLat('latitude').pointLng('longitude').pointAltitude(0.004)
+        .pointRadius(0.48).pointsTransitionDuration(0)
+        .pointColor(p => p.evidence_class === direct_class ? '#38f2d1' : '#ffb649')
+        .pointLabel(p => {const label = document.createElement('span'); label.textContent = p.site_id; return label;})
+        .onPointClick(p => send('setComponentValue', {dataType:'json', value:{site_id:p.site_id, at:Date.now()}}))
+        .onGlobeReady(() => {statusBox.hidden = true;})
+        .pointOfView({lat:23,lng:46,altitude:2.65});
+      globe.controls().enablePan = false;
+      scene.querySelector('canvas').addEventListener('webglcontextlost', () =>
+        showError('3D graphics interrupted. Reload the page to restore the globe.'));
+    }
+    globe.pointsData(sites);
+  } catch (err) {
+    showError('Could not start the 3D globe. Check browser graphics acceleration. ' + err.message);
+  }
+  resize();
+});
+new ResizeObserver(resize).observe(scene);
+send('componentReady', {apiVersion:1});
+</script>
+</html>

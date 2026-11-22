@@ -1,0 +1,77 @@
+{
+  "reviewed": "2026-11-21",
+  "rules": {
+    "PHL": [
+      "Production pathway identified",
+      "The Department of Energy can award a service contract covering native hydrogen production. A project needs rights for its specific area.",
+      "DOE circular DC2023-11-0031",
+      "https://doe.gov.ph/circular-no-dc-2023-11-0031"
+    ],
+    "FRA/Haute-Corse": [
+      "Production pathway identified",
+      "France’s Mining Code covers native hydrogen. Private extraction generally requires a concession, and this site’s permit status is unknown.",
+      "French Mining Code, Articles L111-1 and L131-1",
+      "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504028/"
+    ],
+    "OMN": [
+      "Production route unverified",
+      "Oman’s ministry reported on 6 June 2026 that natural hydrogen was at the research stage and that it had issued no commercial production licences as of that date.",
+      "Ministry statement reported by Oman Daily, 6 June 2026",
+      "https://www.omandaily.om/print-article?articleId=1204086"
+    ],
+    "CYP": [
+      "H₂ authorisation unverified",
+      "Cyprus provides for mineral extraction under a mining lease. Its application to native hydrogen at this site needs confirmation.",
+      "Mines and Quarries Regulation Law, Part IV",
+      "https://www.gov.cy/media/sites/5/2025/10/Mines-and-Quarries-Regulation-Law.pdf"
+    ],
+    "TUR": [
+      "H₂ authorisation unverified",
+      "Türkiye requires mining licences and operating permits. The ministry’s mining guide does not establish a production route for native hydrogen.",
+      "Ministry of Energy and Natural Resources",
+      "https://enerji.gov.tr/yatirim-destekleri-maden-yatirim-rehberi"
+    ],
+    "MNG": [
+      "H₂ authorisation unverified",
+      "Mongolia licenses mineral extraction and regulates petroleum separately. The applicable licence for native hydrogen needs confirmation.",
+      "Mongolian Minerals Law",
+      "https://legalinfo.mn/mn/edtl/16532346138581"
+    ],
+    "IND": [
+      "H₂ authorisation unverified",
+      "India’s petroleum rules govern leases for mineral oils. Their application to a standalone native hydrogen deposit needs confirmation.",
+      "Petroleum and Natural Gas Rules, 2025",
+      "https://egazette.gov.in/WriteReadData/2025/268409.pdf"
+    ],
+    "CHN": [
+      "H₂ authorisation unverified",
+      "China regulates mineral extraction through mining rights. A production right covering native hydrogen at this location remains unverified.",
+      "Mineral Resources Law of China",
+      "https://fgk.chinatax.gov.cn/zcfgk/c100009/c5193020/content.html"
+    ],
+    "CAN/Yukon": [
+      "H₂ authorisation unverified",
+      "Yukon grants oil and gas leases for proven productive zones. The territory’s guidance does not establish rights to extract standalone native hydrogen.",
+      "Government of Yukon",
+      "https://yukon.ca/en/doing-business/permits-and-licensing/convert-your-oil-and-gas-permit-lease"
+    ],
+    "ESP": [
+      "Local production route unverified",
+      "Aragón has issued natural hydrogen exploration permits. That precedent establishes neither a production right nor a permit at this location.",
+      "Government of Aragón, exploration decisions",
+      "https://www.aragon.es/-/derechos-mineros-a%C3%B1o-2026"
+    ],
+    "ITA": [
+      "H₂ authorisation unverified",
+      "Italy uses concessions for the exploitation of minerals covered by its mining regime. Native hydrogen coverage needs confirmation.",
+      "European Commission, Italy mineral policy profile",
+      "https://rmis.jrc.ec.europa.eu/uploads/legislation/Minerals_Policy_Country_Profile_IT.pdf"
+    ],
+    "GRC": [
+      "H₂ authorisation unverified",
+      "Greece’s Mining Code distinguishes state-reserved minerals from those subject to concession. The applicable classification for native hydrogen remains unverified.",
+      "Greek Mining Code",
+      "https://rmis.jrc.ec.europa.eu/uploads/legislation/MiningDecree_Greece_ENGLISH.pdf"
+    ]
+  }
+}
