@@ -1,5 +1,7 @@
 # H2 Mapper — Source Context Explorer
 
+**[Open the live H₂ Mapper website](https://h2-mapper-arjit.streamlit.app/)**
+
 This folder contains an evidence-first Streamlit site and its first global,
 source-attributed dataset layer. It is intentionally **not** a
 hydrogen-deposit dataset or a reserve model.
