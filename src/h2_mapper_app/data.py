@@ -71,9 +71,10 @@ def filter_sites(
     filtered = filtered[filtered["sample_count"] >= minimum_samples]
     if reported_rocks:
         requested = set(reported_rocks)
-        filtered = filtered[filtered["all_reported_rock_types"].apply(lambda values: bool(requested & set(values)))]
+        matches = filtered["all_reported_rock_types"].map(lambda values: bool(requested.intersection(values)))
+        filtered = filtered.loc[matches.astype(bool)]
     query = search_text.strip().casefold()
-    if query:
+    if query and not filtered.empty:
         searchable = (
             filtered["site_id"]
             + " "
