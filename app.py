@@ -26,22 +26,20 @@ st.set_page_config(
     page_title="H₂ Mapper | Source Context",
     page_icon="◈",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 inject_theme()
 
 sites = load_sites()
 
-st.markdown("<p class='eyebrow'>CHEMISTRY-LED GLOBAL SCREENING</p>", unsafe_allow_html=True)
-st.title("H₂ Mapper")
-st.markdown(
-    "**Map where the surface geology contains source-rock context compatible with "
-    "possible serpentinization-driven hydrogen generation.**"
-)
-st.info(
-    "This is a source-context screen, not a hydrogen-deposit, reserve, reaction-rate, "
-    "or discovery-probability map.",
-    icon="ℹ️",
+st.html(
+    """
+    <header class="atlas-header">
+      <h1>H₂ Mapper</h1>
+      <p>Explore ultramafic rocks and ophiolites around the world for geological
+      evidence of where natural hydrogen could form.</p>
+    </header>
+    """
 )
 
 with st.sidebar:
@@ -74,10 +72,13 @@ filtered = filter_sites(
 
 direct_count = int((filtered["evidence_class"] == DIRECT_CLASS).sum())
 context_count = int((filtered["evidence_class"] == CONTEXT_CLASS).sum())
-metric_a, metric_b, metric_c = st.columns(3)
-metric_a.metric("Mapped screening sites", f"{len(filtered):,}")
-metric_b.metric("Direct source-rock anchors", f"{direct_count:,}")
-metric_c.metric("Ophiolite-context anchors", f"{context_count:,}")
+with st.container(key="site_counts"):
+    metric_a, metric_b, metric_c = st.columns(3)
+    metric_a.metric("Mapped sites", f"{len(filtered):,}")
+    with metric_b.container(key="direct_count"):
+        st.metric("Direct rock evidence", f"{direct_count:,}")
+    with metric_c.container(key="context_count"):
+        st.metric("Ophiolite context", f"{context_count:,}")
 
 if filtered.empty:
     st.warning("No sites match the current filters. Broaden a filter to restore map results.")
@@ -85,12 +86,12 @@ if filtered.empty:
 
 map_column, evidence_column = st.columns([1.8, 1], gap="large")
 with map_column:
-    st.subheader("Satellite Earth source-rock explorer")
-    st.caption("Drag to rotate, scroll to zoom, and click a marker to select its site.")
+    st.subheader("Source-rock globe")
+    st.caption("Drag to rotate, scroll to zoom, or select a point for site evidence.")
     click = render_satellite_globe(filtered)
 
 with evidence_column:
-    st.subheader("Selected-site evidence")
+    st.subheader("Site evidence")
     options = site_options(filtered)
     if click and click != st.session_state.get("handled_globe_click"):
         st.session_state.handled_globe_click = click
@@ -114,5 +115,5 @@ st.markdown("### How to read this map")
 left, middle, right = st.columns(3)
 left.markdown("**1. Source rock**  \nDirect rock samples carry stronger source-rock evidence than ophiolite context alone.")
 middle.markdown("**2. Conditions still required**  \nWater access, alteration, permeability, and temperature require independent layers.")
-right.markdown("**3. Accumulation stays separate**  \nThis map says nothing about traps, seals, migration, preservation, or commercial volumes.")
+right.markdown("**3. Interpretation limits**  \nThe map does not estimate reaction rates, discovery probability, deposits or reserves. Accumulation depends on migration, traps, seals and preservation.")
 

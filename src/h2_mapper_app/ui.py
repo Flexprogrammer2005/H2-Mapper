@@ -19,19 +19,62 @@ def _site_context():
 
 
 def inject_theme() -> None:
-    st.markdown(
+    st.html(
         """
         <style>
-          .stApp { background: #f6f8fb; color: #10202f; }
-          h1 { letter-spacing: -0.045em; font-weight: 750; }
-          .eyebrow { color: #0d8b7c; font-weight: 700; font-size: 0.78rem; letter-spacing: 0.12em; margin-bottom: -0.55rem; }
-          [data-testid="stMetric"] { background: white; border: 1px solid #e3e9ee; border-radius: 12px; padding: 0.8rem; }
-          .evidence-card { background: white; border: 1px solid #e3e9ee; border-radius: 14px; padding: 1.1rem; }
-          .tag { display: inline-block; padding: 0.2rem 0.5rem; border-radius: 99px; margin: 0.1rem 0.15rem 0.1rem 0; font-size: 0.78rem; background: #e6f6f3; color: #076c61; }
-          .tag-muted { background: #fff0d7; color: #8a5500; }
+          [data-testid="stMainBlockContainer"] {
+            max-width: 96rem;
+            padding-top: 4.25rem;
+          }
+          [data-testid="stMain"] h1 {
+            font-family: "Source Serif 4", Georgia, serif;
+            font-weight: 500;
+            letter-spacing: -.045em;
+          }
+          header.atlas-header {
+            border-left: 3px solid #43897b;
+            padding: .15rem 0 .2rem clamp(.85rem, 2vw, 1.5rem);
+            margin-bottom: .45rem;
+          }
+          .atlas-header h1 { font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1.04; padding: 0; margin: 0; }
+          .atlas-header p { max-width: 66ch; margin: .5rem 0 0; color: #465d59; line-height: 1.5; }
+          [data-testid="stMetric"], .st-key-site_evidence {
+            background: #fff;
+            border: 1px solid #d9e2dc;
+            border-radius: .85rem;
+          }
+          [data-testid="stMetric"] { padding: .7rem 1rem; }
+          [data-testid="stMetricValue"] { font-variant-numeric: tabular-nums; line-height: 1.2; }
+          .st-key-direct_count [data-testid="stMetricLabel"]::before,
+          .st-key-context_count [data-testid="stMetricLabel"]::before {
+            content: "";
+            width: .55rem;
+            height: .55rem;
+            flex: 0 0 auto;
+            align-self: center;
+            margin-right: .25rem;
+            border-radius: 50%;
+            background: #148571;
+          }
+          .st-key-context_count [data-testid="stMetricLabel"]::before { background: #bc7822; }
+          .st-key-site_evidence { padding: 1.1rem; gap: .55rem; }
+          .st-key-site_evidence hr { margin: .35rem 0; border-color: #dde6df; }
+          iframe[title$="earth_globe"] { border-radius: .85rem; }
+          @media (max-width: 640px) {
+            [data-testid="stMainBlockContainer"] { padding-top: 3.75rem; }
+            .st-key-site_counts [data-testid="stHorizontalBlock"] {
+              display: grid;
+              grid-template-columns: repeat(3, minmax(0, 1fr));
+              gap: .35rem;
+            }
+            .st-key-site_counts [data-testid="stColumn"] { min-width: 0; width: 100%; }
+            [data-testid="stMetric"] { padding: .5rem; }
+            [data-testid="stMetricLabel"] { min-height: 2.5rem; }
+            [data-testid="stMetricLabel"] p { font-size: .8rem; white-space: normal; line-height: 1.2; }
+            [data-testid="stMetricValue"] { font-size: 1.5rem; }
+          }
         </style>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -43,10 +86,11 @@ def render_site_evidence(site: object) -> None:
     region = place.get("region", "")
     code = place.get("code", "")
     location = ", ".join(dict.fromkeys(x for x in (region, country) if x))
-    with st.container(border=True):
+    with st.container(key="site_evidence"):
         st.markdown("**Place**")
         st.write(location or "Jurisdiction unresolved at this coordinate")
         st.caption(f"{site.latitude:.5f}°, {site.longitude:.5f}° · Natural Earth land boundaries")
+        st.divider()
         st.markdown("**Possibility of hydrogen generation**")
         if direct:
             rocks = ", ".join(r.lower() for r in site.direct_source_rock_types)
@@ -54,6 +98,7 @@ def render_site_evidence(site: object) -> None:
         else:
             st.write("Indirect rock evidence. The samples place this site in an ophiolite, but the recorded rock types do not establish a local ultramafic source.")
         st.caption("Groundwater access, permeability and hydrogen measurements remain unverified here.")
+        st.divider()
         st.markdown("**Natural hydrogen extraction rules**")
         rules = policy["rules"]
         rule = rules.get(f"{code}/{region}") or rules.get(code)
