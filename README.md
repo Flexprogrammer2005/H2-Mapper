@@ -9,13 +9,14 @@ hydrogen-deposit dataset or a reserve model.
 ## Run the site
 
 ```powershell
-cd h2_mapper
+cd H2-Mapper
+python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
 The site includes:
 
-- a Cesium-powered satellite-imagery Earth viewer with 850 real ophiolite sample sites;
+- an interactive Globe.GL Earth viewer with 850 EarthChem sample sites;
 - filtering by rock type, evidence class, sample count, and source identifiers;
 - a selected-site evidence and provenance panel;
 - downloadable filtered CSV and GeoJSON; and
@@ -23,15 +24,14 @@ The site includes:
 
 ## Satellite Earth view
 
-The main map uses CesiumJS with satellite imagery and click-to-inspect site
-markers. Add a personal `CESIUM_ION_TOKEN` environment variable to enable
-Cesium World Terrain, terrain lighting, and water effects. Without a token, the
-site remains a rotatable satellite-imagery globe on an ellipsoid.
+Globe.GL uses Three.js to render a bundled Blue Marble texture (`earth.jpg`).
+Rotate or zoom the globe and click a sample marker to inspect its evidence.
+The globe runs without a map API key. Natural Earth boundaries supply place
+labels during data preparation. A visible boundary overlay is planned.
 
 ## MongoDB evidence store
 
-MongoDB is ready for the spatial evidence layers, but no database server is
-currently running on this computer. The importer keeps every layer separate:
+The optional MongoDB importer maintains these collections:
 
 - `site_anchors` — the 850 source-attributed EarthChem points;
 - `fault_traces` — 13,696 GEM active-fault traces;
@@ -49,8 +49,15 @@ python scripts/seed_mongo.py
 ```
 
 The same importer works with MongoDB Atlas by setting `MONGODB_URI` to an Atlas
-connection string. The app automatically uses its checked-in GeoJSON fallback
-until a database is connected.
+connection string. The globe and Data Explorer always read the bundled site GeoJSON. The sidebar
+reports database connectivity. A nearby-faults panel is planned.
+
+## Large raw datasets
+
+The existing GEM fault snapshot is bundled so a standard clone includes the
+data needed for seeding. For future large raw files, install Git LFS and
+run `git lfs track --filename "path/to/file"` before adding the file. Commit the resulting
+`.gitattributes` alongside the dataset.
 
 ## Current scope
 

@@ -57,7 +57,7 @@ def connection_status() -> tuple[bool, str]:
 
 
 def nearest_faults(database: Database, point: dict[str, Any], max_distance_m: int = 100_000, limit: int = 10) -> list[dict[str, Any]]:
-    """Return nearby fault records as context, never as a prospectivity conclusion."""
+    """Planned site evidence panel query. No page currently calls it."""
     return list(
         database.fault_traces.find(
             {

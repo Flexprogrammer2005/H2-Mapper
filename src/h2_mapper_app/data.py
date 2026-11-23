@@ -54,7 +54,7 @@ def load_criteria() -> dict[str, Any]:
 
 @st.cache_data(show_spinner=False)
 def load_country_boundaries() -> dict[str, Any]:
-    """Load a local, lightweight land outline for the non-Mercator globe."""
+    """Planned globe overlay. No page currently requests these polygons."""
     return json.loads(COUNTRIES_PATH.read_text(encoding="utf-8"))
 
 
@@ -93,17 +93,3 @@ def site_options(sites: pd.DataFrame) -> list[tuple[str, str]]:
         )
         for row in sites.itertuples()
     ]
-
-
-def selected_site_from_event(selection: Any) -> str | None:
-    """Extract the clicked feature ID from Streamlit/PyDeck selection state."""
-    if not selection:
-        return None
-    try:
-        selected = selection.get("selection", {}).get("objects", [])
-        if selected:
-            return selected[0].get("site_id")
-    except AttributeError:
-        return None
-    return None
-
