@@ -1,3 +1,4 @@
+# Globe.GL is bundled with the app as a browser asset.
 streamlit>=1.56,<2
 pandas>=3,<4
 openpyxl>=3.1,<4
