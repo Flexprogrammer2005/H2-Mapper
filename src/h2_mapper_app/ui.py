@@ -23,7 +23,7 @@ def inject_theme() -> None:
         """
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&display=swap');
-          .atlas-header small { display:block; margin-top:.6rem; color:#365e55; font-weight:600; }
+          .atlas-header small { display:block; margin-top:.6rem; color:#a8dfcd; font-weight:600; letter-spacing:.025em; }
           .map-step span { display:inline-grid; place-items:center; width:1.55rem; height:1.55rem; border-radius:50%; background:#196c60; color:white; margin-right:.55rem; }
           .map-step p { margin:.55rem 0; }
           .evidence-chip { display:inline-block; padding:.18rem .65rem; border-radius:1rem; font-size:.86rem; font-weight:650; }
@@ -40,20 +40,23 @@ def inject_theme() -> None:
             letter-spacing: -.045em;
           }
           header.atlas-header {
-            border-left: 3px solid #43897b;
-            background: linear-gradient(105deg,#e9f2eb,#f4f6ed 72%,#f7f8f5);
-            border-radius: 0 .85rem .85rem 0;
-            padding: .85rem .9rem .85rem clamp(.85rem, 2vw, 1.5rem);
+            background:
+              linear-gradient(90deg, #123831 12%, #123831eb 52%, transparent 90%),
+              repeating-radial-gradient(ellipse at 108% 120%, transparent 0 21px,
+                #b3e5d027 22px, transparent 24px 34px),
+              linear-gradient(115deg, #123831, #28594d);
+            border-radius: 1rem;
+            padding: clamp(1rem, 2.2vw, 1.75rem);
             margin-bottom: .45rem;
           }
-          .atlas-header h1 { font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1.04; padding: 0; margin: 0; }
-          .atlas-header p { max-width: 66ch; margin: .5rem 0 0; color: #465d59; line-height: 1.5; }
+          .atlas-header h1 { color:#fffaf0; font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1.04; padding: 0; margin: 0; }
+          .atlas-header p { max-width: 66ch; margin: .5rem 0 0; color: #e0ede6; line-height: 1.5; }
           [data-testid="stMetric"], .st-key-site_evidence {
             background: #fff;
             border: 1px solid #d9e2dc;
             border-radius: .85rem;
           }
-          [data-testid="stMetric"] { padding: .7rem 1rem; }
+          [data-testid="stMetric"] { padding: .7rem 1rem; box-shadow:0 2px 7px #17372b08; }
           [data-testid="stMetricValue"] { font-variant-numeric: tabular-nums; line-height: 1.2; }
           .st-key-direct_count [data-testid="stMetricLabel"]::before,
           .st-key-context_count [data-testid="stMetricLabel"]::before {
@@ -69,7 +72,7 @@ def inject_theme() -> None:
           .st-key-context_count [data-testid="stMetricLabel"]::before { background: #bc7822; border-radius: 0; transform: rotate(45deg); }
           .st-key-site_evidence { padding: 1.1rem; gap: .55rem; }
           .st-key-site_evidence hr { margin: .35rem 0; border-color: #dde6df; }
-          iframe[title$="earth_globe"] { box-sizing:border-box; border:1px solid #d9e2dc; box-shadow:0 4px 18px #08152218; border-radius: .85rem; }
+          iframe[title$="earth_globe"] { box-sizing:border-box; border:1px solid #385650; box-shadow:0 0 0 3px #e0e9e2, 0 8px 24px #13352d18; border-radius: 1rem; }
           @media (max-width: 640px) {
             [data-testid="stMainBlockContainer"] { padding-top: 3.75rem; }
             .st-key-site_counts [data-testid="stHorizontalBlock"] {
