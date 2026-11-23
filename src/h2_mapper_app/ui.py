@@ -22,6 +22,14 @@ def inject_theme() -> None:
     st.html(
         """
         <style>
+          @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&display=swap');
+          .atlas-header small { display:block; margin-top:.6rem; color:#365e55; font-weight:600; }
+          .map-step span { display:inline-grid; place-items:center; width:1.55rem; height:1.55rem; border-radius:50%; background:#196c60; color:white; margin-right:.55rem; }
+          .map-step p { margin:.55rem 0; }
+          .evidence-chip { display:inline-block; padding:.18rem .65rem; border-radius:1rem; font-size:.86rem; font-weight:650; }
+          .place { background:#e6eef1; color:#284c61; }
+          .chemistry { background:#deeee6; color:#225749; }
+          .rules { background:#f6ecd8; color:#684a17; }
           [data-testid="stMainBlockContainer"] {
             max-width: 96rem;
             padding-top: 4.25rem;
@@ -33,7 +41,9 @@ def inject_theme() -> None:
           }
           header.atlas-header {
             border-left: 3px solid #43897b;
-            padding: .15rem 0 .2rem clamp(.85rem, 2vw, 1.5rem);
+            background: linear-gradient(105deg,#e9f2eb,#f4f6ed 72%,#f7f8f5);
+            border-radius: 0 .85rem .85rem 0;
+            padding: .85rem .9rem .85rem clamp(.85rem, 2vw, 1.5rem);
             margin-bottom: .45rem;
           }
           .atlas-header h1 { font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1.04; padding: 0; margin: 0; }
@@ -56,10 +66,10 @@ def inject_theme() -> None:
             border-radius: 50%;
             background: #148571;
           }
-          .st-key-context_count [data-testid="stMetricLabel"]::before { background: #bc7822; }
+          .st-key-context_count [data-testid="stMetricLabel"]::before { background: #bc7822; border-radius: 0; transform: rotate(45deg); }
           .st-key-site_evidence { padding: 1.1rem; gap: .55rem; }
           .st-key-site_evidence hr { margin: .35rem 0; border-color: #dde6df; }
-          iframe[title$="earth_globe"] { border-radius: .85rem; }
+          iframe[title$="earth_globe"] { box-sizing:border-box; border:1px solid #d9e2dc; box-shadow:0 4px 18px #08152218; border-radius: .85rem; }
           @media (max-width: 640px) {
             [data-testid="stMainBlockContainer"] { padding-top: 3.75rem; }
             .st-key-site_counts [data-testid="stHorizontalBlock"] {
@@ -87,11 +97,11 @@ def render_site_evidence(site: object) -> None:
     code = place.get("code", "")
     location = ", ".join(dict.fromkeys(x for x in (region, country) if x))
     with st.container(key="site_evidence"):
-        st.markdown("**Place**")
+        st.html('<span class="evidence-chip place">Place</span>')
         st.write(location or "Jurisdiction unresolved at this coordinate")
         st.caption(f"{site.latitude:.5f}°, {site.longitude:.5f}° · Natural Earth land boundaries")
         st.divider()
-        st.markdown("**Possibility of hydrogen generation**")
+        st.html('<span class="evidence-chip chemistry">Possibility of hydrogen generation</span>')
         if direct:
             rocks = ", ".join(r.lower() for r in site.direct_source_rock_types)
             st.write(f"Direct rock evidence. Samples include {rocks}. When water reaches suitable iron-bearing minerals, alteration can release hydrogen.")
@@ -99,7 +109,7 @@ def render_site_evidence(site: object) -> None:
             st.write("Indirect rock evidence. The samples place this site in an ophiolite, but the recorded rock types do not establish a local ultramafic source.")
         st.caption("Groundwater access, permeability and hydrogen measurements remain unverified here.")
         st.divider()
-        st.markdown("**Natural hydrogen extraction rules**")
+        st.html('<span class="evidence-chip rules">Natural hydrogen extraction rules</span>')
         rules = policy["rules"]
         rule = rules.get(f"{code}/{region}") or rules.get(code)
         if rule:

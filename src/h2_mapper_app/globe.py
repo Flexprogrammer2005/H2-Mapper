@@ -12,11 +12,12 @@ _globe = components.declare_component(
 )
 
 
-def render_satellite_globe(sites: pd.DataFrame):
+def render_satellite_globe(sites: pd.DataFrame, selected_id: str):
     """Send filtered coordinates and receive the most recent marker click."""
     columns = ["site_id", "latitude", "longitude", "evidence_class"]
     return _globe(
         sites=sites[columns].to_dict(orient="records"),
+        selected_id=selected_id,
         direct_class=DIRECT_CLASS,
         key="site_globe",
         default=None,

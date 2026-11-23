@@ -33,11 +33,12 @@ inject_theme()
 sites = load_sites()
 
 st.html(
-    """
+    f"""
     <header class="atlas-header">
       <h1>H₂ Mapper</h1>
       <p>Explore ultramafic rocks and ophiolites around the world for geological
       evidence of where natural hydrogen could form.</p>
+      <small>{len(sites):,} source-attributed sites · EarthChem</small>
     </header>
     """
 )
@@ -88,16 +89,19 @@ map_column, evidence_column = st.columns([1.8, 1], gap="large")
 with map_column:
     st.subheader("Source-rock globe")
     st.caption("Drag to rotate, scroll to zoom, or select a point for site evidence.")
-    click = render_satellite_globe(filtered)
+    options = site_options(filtered)
+    current = st.session_state.get("evidence_site")
+    current = current if current in options else options[0]
+    click = render_satellite_globe(filtered, current[0])
 
 with evidence_column:
     st.subheader("Site evidence")
-    options = site_options(filtered)
     if click and click != st.session_state.get("handled_globe_click"):
         st.session_state.handled_globe_click = click
         match = next((item for item in options if item[0] == click["site_id"]), None)
-        if match:
+        if match and match != current:
             st.session_state.evidence_site = match
+            st.rerun()
     selected_site_id = st.selectbox(
         "Choose a site",
         options=options,
@@ -112,8 +116,11 @@ with evidence_column:
 
 st.divider()
 st.markdown("### How to read this map")
-left, middle, right = st.columns(3)
-left.markdown("**1. Source rock**  \nDirect rock samples carry stronger source-rock evidence than ophiolite context alone.")
-middle.markdown("**2. Conditions still required**  \nWater access, alteration, permeability, and temperature require independent layers.")
-right.markdown("**3. Interpretation limits**  \nThe map does not estimate reaction rates, discovery probability, deposits or reserves. Accumulation depends on migration, traps, seals and preservation.")
-
+steps = [
+    ("Source rock", "Direct rock samples carry stronger source-rock evidence than ophiolite context alone."),
+    ("Conditions still required", "Water access, alteration, permeability and temperature require independent evidence."),
+    ("Interpretation limits", "Assessing deposits and reserves requires evidence of migration, traps, seals and preservation. The map does not estimate reaction rates or discovery probability."),
+]
+for number, (column, (title, detail)) in enumerate(zip(st.columns(3), steps), start=1):
+    with column:
+        st.html(f'<div class="map-step"><span>{number}</span><strong>{title}</strong><p>{detail}</p></div>')

@@ -8,6 +8,11 @@
   body {margin:0;background:#081522;color:#eff7fd;font:14px system-ui,sans-serif;overflow:hidden}
   #scene {width:100vw;height:clamp(320px,90vw,590px)}
   .key,#status {position:absolute;background:#0c202de8;padding:8px 12px;border:1px solid #ffffff29;border-radius:10px;pointer-events:none}
+  .marker {background:none;border:0;padding:3px;cursor:pointer;line-height:0}
+  .symbol {display:inline-block;width:8px;height:8px;border:1px solid #102733}
+  .direct {background:#38f2d1;border-radius:50%}
+  .context {background:#ffb649;transform:rotate(45deg)}
+  .marker.selected .symbol {width:13px;height:13px;outline:2px solid white;box-shadow:0 0 0 4px #142b36}
   .key {bottom:12px;left:12px;right:auto;max-width:calc(100% - 24px);font-size:12px;line-height:1.55}
   .items {display:flex;flex-wrap:wrap;gap:0 14px}
   .credit {display:block;color:#adc0c8;font-size:11px;margin-top:2px}
@@ -16,8 +21,8 @@
 <div id="scene" aria-label="Interactive satellite globe"></div>
 <div class="key">
   <div class="items">
-    <span><span class="a">●</span> Direct rock sample</span>
-    <span><span class="b">●</span> Ophiolite context</span>
+    <span><i class="symbol direct"></i> Direct rock sample</span>
+    <span><i class="symbol context"></i> Ophiolite context</span>
   </div>
   <small class="credit">Blue Marble · Globe.GL</small>
 </div>
@@ -31,6 +36,7 @@ function send(type, fields) {
   window.parent.postMessage({isStreamlitMessage:true, type:'streamlit:' + type, ...fields}, parentOrigin);
 }
 let globe;
+let lastSelection;
 function resize() {
   if (globe) globe.width(scene.clientWidth).height(scene.clientHeight);
   send('setFrameHeight', {height:scene.clientHeight});
@@ -41,24 +47,39 @@ function showError(message) {
 }
 window.addEventListener('message', event => {
   if (event.source !== parent || event.data?.type !== 'streamlit:render') return;
-  const {sites, direct_class} = event.data.args;
+  const {sites, direct_class, selected_id} = event.data.args;
   try {
     if (!globe) {
       globe = new Globe(scene, {animateIn:false})
         .width(scene.clientWidth).height(scene.clientHeight)
         .backgroundColor('#081522').globeImageUrl('earth.jpg')
-        .pointLat('latitude').pointLng('longitude').pointAltitude(0.004)
-        .pointRadius(0.48).pointsTransitionDuration(0)
-        .pointColor(p => p.evidence_class === direct_class ? '#38f2d1' : '#ffb649')
-        .pointLabel(p => {const label = document.createElement('span'); label.textContent = p.site_id; return label;})
-        .onPointClick(p => send('setComponentValue', {dataType:'json', value:{site_id:p.site_id, at:Date.now()}}))
+        .htmlLat('latitude').htmlLng('longitude').htmlAltitude(0.005)
+        .htmlElement(site => {
+          const button = document.createElement('button');
+          button.className = site.selected ? 'marker selected' : 'marker';
+          button.tabIndex = -1; // The adjacent site selector provides keyboard navigation.
+          button.title = site.site_id;
+          const symbol = document.createElement('span');
+          symbol.className = 'symbol ' + (site.evidence_class === direct_class ? 'direct' : 'context');
+          button.append(symbol);
+          button.addEventListener('click', () => send('setComponentValue', {
+            dataType:'json', value:{site_id:site.site_id, at:Date.now()}
+          }));
+          return button;
+        })
         .onGlobeReady(() => {statusBox.hidden = true;})
         .pointOfView({lat:23,lng:46,altitude:2.65});
       globe.controls().enablePan = false;
       scene.querySelector('canvas').addEventListener('webglcontextlost', () =>
         showError('3D graphics interrupted. Reload the page to restore the globe.'));
     }
-    globe.pointsData(sites);
+    const selected = sites.find(site => site.site_id === selected_id);
+    globe.htmlElementsData(sites.map(site => ({...site, selected:site.site_id === selected_id})));
+    if (selected && selected_id !== lastSelection) {
+      globe.pointOfView({lat:selected.latitude, lng:selected.longitude, altitude:globe.pointOfView().altitude},
+        lastSelection && !matchMedia('(prefers-reduced-motion: reduce)').matches ? 550 : 0);
+    }
+    lastSelection = selected_id;
   } catch (err) {
     showError('Could not start the 3D globe. Check browser graphics acceleration. ' + err.message);
   }
